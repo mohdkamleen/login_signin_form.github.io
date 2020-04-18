@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <link rel="stylesheet" href="bootstraph.css">
+       
+</head>
+<body>
+    <div class="container">
+      <br>  <h1 class="text-center text-dark text-uppercase">registraition and login form </h1> <br> <br>
+        <div class="row">
+            <div class="col-lg-6 col-md-6">
+                    <form action="sign.php" method="post" class="form-group" enctype="multipart/form-data">
+                        <h1 class="text-center text-dark">sign in</h1>
+                        <label for="email" class="costom-control-label">email</label>
+                        <input type="name" id="email" name="user" class="form-control" value=""> <br>
+                        <label for="password" class="costom-control-label">password</label>
+                        <input type="password" id="password" name="password" class="form-control" value=""> <br>
+                        <label for="file" class="costom-control-label">image</label>
+                        <input type="file" name="file" id="file" class="form-control"> <br>
+                        <input type="submit" class="btn btn-outline-dark" value="sign in">
+                    </form>
+          </div>
+          <div class="col-lg-6 col-md-6">
+                <form action="log.php" method="post" class="form-group">
+                    <h1 class="text-center text-dark">login</h1>
+                    <label for="email1" class="costom-control-label">email</label>
+                    <input type="name" id="email1" class="form-control" name="user" value=""> <br>
+                    <label for="password1" class="costom-control-label">password</label>
+                    <input type="password" id="password1" class="form-control" name="password"  value=""> <br>
+                    <input type="submit" class="btn btn-outline-dark" value="login">
+                </form>
+        </div>
+      </div>
+    </div>
+</body>
+</html>
+
+
+
+
+
+
+
